@@ -40,3 +40,4 @@ The goal of this project was to create a visually appealing and fully responsive
 ## Author
 
 Anusha Gunupuru
+LinkedIn: https://www.linkedin.com/in/gunupuru-anusha-9047b0325/
