@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WoodNest — Building Sustainable Spaces</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ 
+  <!-- ==============================
+       NAVBAR
+  ============================== -->
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">Wood<span>Nest</span></a>
+ 
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+ 
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+ 
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#hero"         onclick="closeMobile()">Home</a>
+      <a href="#about"        onclick="closeMobile()">About</a>
+      <a href="#why"          onclick="closeMobile()">Why Us</a>
+      <a href="#services"     onclick="closeMobile()">Services</a>
+      <a href="#testimonials" onclick="closeMobile()">Testimonials</a>
+      <a href="#contact"      onclick="closeMobile()">Contact</a>
+    </div>
+  </nav>
+ 
+ 
+  <!-- ==============================
+       HERO
+  ============================== -->
+  <section id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="eyebrow">Sustainable Living · Est. 2014</span>
+      <h1 class="hero-title">
+        Building <em>Sustainable</em><br>
+        Spaces for<br>
+        Modern Living
+      </h1>
+      <p class="hero-sub">
+        WoodNest blends natural craftsmanship with modern technology to create spaces that breathe, last, and inspire.
+      </p>
+      <div class="hero-btns">
+        <a href="#services" class="btn-primary">Explore Services</a>
+        <a href="#contact"  class="btn-outline">Talk to Us</a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+ 
+ 
+  <!-- ==============================
+       ABOUT
+  ============================== -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+ 
+        <div class="about-img-wrap reveal">
+          <img
+            src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80"
+            alt="WoodNest modern interior"
+            class="about-img"
+          />
+          <div class="about-badge">
+            <span class="badge-num">10</span>
+            <span class="badge-txt">Years of<br>Experience</span>
+          </div>
+        </div>
+ 
+        <div class="about-text reveal reveal-delay-1">
+          <span class="section-tag">Our Story</span>
+          <h2 class="section-title">Rooted in nature,<br>built for tomorrow</h2>
+          <div class="accent-line"></div>
+          <p class="body-text">
+            WoodNest was born from a simple belief — that the spaces we inhabit shape the lives we live. We combine sustainable materials, ecological thinking, and smart technology to craft environments that feel alive.
+          </p>
+          <p class="body-text" style="margin-top:14px">
+            From concept to completion, every WoodNest project is a conversation between the natural world and modern living — never a compromise, always a harmony.
+          </p>
+ 
+          <div class="stats-row">
+            <div class="stat-item">
+              <span class="stat-num">500<em>+</em></span>
+              <span class="stat-label">Projects Done</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num">120<em>+</em></span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num">10</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+ 
+  <!-- ==============================
+       WHY CHOOSE US
+  ============================== -->
+  <section id="why">
+    <div class="container">
+      <div class="why-header reveal">
+        <span class="section-tag light">Why WoodNest</span>
+        <p class="why-tagline">"Building Sustainable Spaces for Modern Living"</p>
+        <h2 class="section-title light">Four reasons clients choose us</h2>
+        <p class="body-text light">We don't just build spaces. We build trust, longevity, and a better way of living.</p>
+      </div>
+ 
+      <div class="why-grid">
+        <div class="why-card reveal reveal-delay-1">
+          <div class="why-icon">🌱</div>
+          <h3>Eco-First Approach</h3>
+          <p>Every material and every decision starts with one question: is it kind to the earth? We source responsibly and build to last.</p>
+        </div>
+        <div class="why-card reveal reveal-delay-2">
+          <div class="why-icon">🏛️</div>
+          <h3>Human-Centered Design</h3>
+          <p>Spaces designed around how people actually live — not just how they look in a portfolio. Function and beauty, together.</p>
+        </div>
+        <div class="why-card reveal reveal-delay-3">
+          <div class="why-icon">⚡</div>
+          <h3>End-to-End Delivery</h3>
+          <p>From the first sketch to the final nail, we own the process. No middlemen, no surprises — just seamless delivery.</p>
+        </div>
+        <div class="why-card reveal reveal-delay-4">
+          <div class="why-icon">🤝</div>
+          <h3>Trusted by 120+ Clients</h3>
+          <p>A decade of relationships built on honesty, craft, and results. Our clients return — and bring their friends.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+ 
+  <!-- ==============================
+       SERVICES
+  ============================== -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What We Do</span>
+        <h2 class="section-title">Our core services</h2>
+        <p class="body-text">Three disciplines. One philosophy. Every service guided by the same commitment to sustainability, beauty, and lasting value.</p>
+      </div>
+ 
+      <div class="services-grid">
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80" alt="Smart Interior Design" class="service-img" />
+          </div>
+          <div class="service-body">
+            <span class="service-icon">🪑</span>
+            <h3>Smart Interior Design</h3>
+            <p>Intelligent interiors that adapt to how you live — warm-toned materials, smart-home integration, and spaces that breathe.</p>
+            <a href="#contact" class="service-link">Get Started →</a>
+          </div>
+        </div>
+ 
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Eco Architecture" class="service-img" />
+          </div>
+          <div class="service-body">
+            <span class="service-icon">🏠</span>
+            <h3>Eco Architecture</h3>
+            <p>Structures that work with nature, not against it. Passive design, sustainable materials, and biophilic principles in every build.</p>
+            <a href="#contact" class="service-link">Get Started →</a>
+          </div>
+        </div>
+ 
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Sustainable Tech" class="service-img" />
+          </div>
+          <div class="service-body">
+            <span class="service-icon">💡</span>
+            <h3>Sustainable Tech</h3>
+            <p>Solar, smart energy, and building automation — technology that reduces your footprint while elevating everyday experience.</p>
+            <a href="#contact" class="service-link">Get Started →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+ 
+  <!-- ==============================
+       TESTIMONIALS
+  ============================== -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What People Say</span>
+        <h2 class="section-title">Voices from our community</h2>
+        <p class="body-text">Real words from real clients who trusted WoodNest with their most important spaces.</p>
+      </div>
+ 
+      <div class="testimonials-grid">
+        <div class="testi-card reveal reveal-delay-1">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"WoodNest transformed our office into a modern eco-friendly workspace. The team understood our vision perfectly and delivered beyond expectations."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">AR</div>
+            <div class="testi-info">
+              <strong>Ananya Rao</strong>
+              <span>CEO, GreenLeaf Studio · Hyderabad</span>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="testi-card reveal reveal-delay-2">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"From the very first consultation, WoodNest made us feel heard. Our home is now the warmest, most intentional space I have ever lived in."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">SM</div>
+            <div class="testi-info">
+              <strong>Siddharth Menon</strong>
+              <span>Homeowner · Bangalore</span>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="testi-card reveal reveal-delay-3">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"The sustainable tech solutions WoodNest integrated into our building cut our energy costs by 40%. Smart, beautiful, and responsible design."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">PK</div>
+            <div class="testi-info">
+              <strong>Priya Krishnamurthy</strong>
+              <span>Founder, NestWorks · Chennai</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+ 
+  <!-- ==============================
+       CONTACT
+  ============================== -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-grid">
+ 
+        <div class="contact-info reveal">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's build something<br><em>beautiful</em> together</h2>
+          <p class="body-text">Have a project in mind or just want to explore what's possible? We'd love to hear from you.</p>
+ 
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <strong>Location</strong>
+                <span>Hyderabad, Telangana, India</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <strong>Phone</strong>
+                <span>+91 98765 43210</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <strong>Email</strong>
+                <span>hello@woodnest.com</span>
+              </div>
+            </div>
+          </div>
+ 
+          <img
+            src="https://images.unsplash.com/photo-1616137466211-f939a420be84?w=600&q=80"
+            alt="WoodNest workspace"
+            class="contact-img"
+          />
+        </div>
+ 
+        <div class="contact-form-wrap reveal reveal-delay-1">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">Your Name</label>
+                <input type="text" id="fname" placeholder="e.g. Arjun Sharma" required />
+              </div>
+              <div class="form-group">
+                <label for="femail">Email Address</label>
+                <input type="email" id="femail" placeholder="hello@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="fsubject">Subject</label>
+              <input type="text" id="fsubject" placeholder="How can we help?" />
+            </div>
+            <div class="form-group">
+              <label for="fmessage">Message</label>
+              <textarea id="fmessage" placeholder="Tell us about your project or idea..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit" id="submitBtn">Send Message →</button>
+          </form>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+ 
+  <!-- ==============================
+       FOOTER
+  ============================== -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">Wood<span>Nest</span></span>
+        <p>Building sustainable spaces<br>for modern living.</p>
+      </div>
+      <div class="footer-links-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact-col">
+        <h4>Contact</h4>
+        <p>📍 Hyderabad, Telangana, India</p>
+        <p>📞 +91 98765 43210</p>
+        <p>✉️ hello@woodnest.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 WoodNest. All rights reserved.</p>
+    </div>
+  </footer>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
+ 
